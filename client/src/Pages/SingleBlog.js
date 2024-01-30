@@ -10,7 +10,7 @@ const SingleBlog = () => {
   useEffect(()=>{
     const fetchSingleBlog = async ()=>{
       const res= await axios.get(`http://localhost:9000/api/v1/get/blog/${id}`,
-      {
+      { 
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`,
         },
