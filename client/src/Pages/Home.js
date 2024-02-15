@@ -67,7 +67,7 @@ const Home = () => {
       </main>
       <footer className='bg-dark text-lg-start'>
         <div
-          className='text-center p-5 text-white'
+          className='text-center p-6 text-white'
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
         >
           © 2023 Copyright:
